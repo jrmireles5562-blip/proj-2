@@ -117,7 +117,7 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
             <li><a href="https://github.com/jrmireles5562-blip/proj-2/blob/main/index.html">home</a></li>
             <li><a href="#about">Us</a></li>
             <li><a href="https://j-d-ign.myshopify.com/">custom</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="./index.html#contact">contact</a></li>
         </ul>
     </nav>
     <header role="img" aria-hidden="true">
@@ -140,7 +140,7 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
         </section>
         <section class="card">
             <h2 id="contact">Contact Us</h2>
-            <p>Get in touch with us for any inquiries or custom orders of our T-Shirts. </p>
+            <p>Get in touch with us for any inquiries or custom orders of our T-Shirts at: 6154873195 or email at Wowhow43@gmail.com </p>
         </section>
     </main>
     <footer>
