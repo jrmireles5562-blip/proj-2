@@ -128,7 +128,7 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
         <section class="card">
             <h2 id="home">Dyed T-Shirts</h2>
             <p>Explore our range of vibrant dyed t-shirts available in various colors and styles.</p>
-            <a class="btn" href="#home">Shop</a>
+            <a class="btn" href="https://j-d-ign.myshopify.com/">Shop</a>
         </section>
         <section class="card">
             <h2 id="about">Printed T-Shirts</h2>
