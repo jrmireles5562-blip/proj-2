@@ -76,6 +76,15 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
         font-size: 14px;
         color: white;
     }
+    .btn {
+        display:inline-block;
+        padding:8px 14px;
+        background:darkblue;
+        color:white;
+        text-decoration:none;
+        border-radius:6px;
+        font-weight:600;
+    }
     h2 {
         margin-top: 0;
     }
@@ -106,24 +115,24 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
         <div class="logo">Johns Tee's</div>
         <ul>
             <li><a href="https://github.com/jrmireles5562-blip/proj-2/blob/main/index.html">home</a></li>
-            <li><a href="#about">printed</a></li>
+            <li><a href="#about">Us</a></li>
             <li><a href="https://j-d-ign.myshopify.com/">custom</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
-    <header>
+    <header role="img" aria-hidden="true">
         <h1>Welcome to Johns Tee's</h1>
         <p>Your one-stop shop for custom t-shirts</p>
     </header>
     <main>
         <section class="card">
             <h2 id="home">Dyed T-Shirts</h2>
-            <p>Explore our range of vibrant dyed t-shirts available in various colors and styles.</p>   
-            <button><a href="#home">Shop</a></button>
+            <p>Explore our range of vibrant dyed t-shirts available in various colors and styles.</p>
+            <a class="btn" href="#home">Shop</a>
         </section>
         <section class="card">
             <h2 id="about">Printed T-Shirts</h2>
-            <p>Discover our collection of printed t-shirts featuring unique designs and graphics.</p>
+            <p>Discover our collection of printed t-shirts featuring unique designs and graphics. press home to get started!</p>
         </section>
         <section class="card">
             <h2 id="services">Custom T-Shirts</h2>
@@ -131,7 +140,7 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
         </section>
         <section class="card">
             <h2 id="contact">Contact Us</h2>
-            <p>Get in touch with us for any inquiries or custom orders.</p>
+            <p>Get in touch with us for any inquiries or custom orders of our T-Shirts. </p>
         </section>
     </main>
     <footer>
