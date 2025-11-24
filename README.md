@@ -117,7 +117,7 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
             <li><a href="https://github.com/jrmireles5562-blip/proj-2/blob/main/index.html">home</a></li>
             <li><a href="#about">Us</a></li>
             <li><a href="https://j-d-ign.myshopify.com/">custom</a></li>
-            <li><a href="./index.html#contact">contact</a></li>
+            <li><a href="https://www.canva.com/design/DAG5iz7JpDM/r0I61kUcI0EX0TrSvh8jJQ/edit?utm_content=DAG5iz7JpDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">contact</a></li>
         </ul>
     </nav>
     <header role="img" aria-hidden="true">
@@ -144,7 +144,44 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Johns Tee's. All rights reserved.</p>
-    </footer>
-</body>
-</html>   
+        <!--
+        Preview locally: open `index.html` or run `python3 -m http.server 8000 --directory .` then open http://localhost:8000/index.html
+        Developer note: `index.html` is canonical; README contains usage and a short sample.
+        -->
+
+        # Johns Tee's — Demo site
+
+        This repository contains a demo HTML/CSS page for Johns Tee's. The canonical site file is `index.html` at the project root in this folder.
+
+        To preview locally, run:
+
+        ```bash
+        python3 -m http.server 8000 --directory .
+        # Open http://localhost:8000/index.html in your browser
+        ```
+
+        For convenience, a short excerpt from the page is included below, but the full page markup lives in `index.html`.
+
+        ```html
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Johns Tee's</title>
+          </head>
+          <body>
+            <header>
+              <h1>Welcome to Johns Tee's</h1>
+            </header>
+            <main>
+              <section class="card">
+                <h2 id="home">Dyed T-Shirts</h2>
+                <p>Explore our range of vibrant dyed t-shirts.</p>
+              </section>
+            </main>
+          </body>
+        </html>
+        ```
+
+        If you'd like, I can 1) remove the duplicate/outdated files, 2) run a linter, and 3) improve accessibility further.# port1
