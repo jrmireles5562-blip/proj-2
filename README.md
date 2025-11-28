@@ -114,10 +114,10 @@ Developer note: `index.html` is canonical; README contains a sample copy of the 
     <nav>
         <div class="logo">Johns Tee's</div>
         <ul>
-            <li><a href="https://github.com/jrmireles5562-blip/proj-2/blob/main/index.html">home</a></li>
-            <li><a href="#about">Us</a></li>
+            <li><a href="./index.html#home">home</a></li>
+            <li><a href="./index.html#about">about</a></li>
             <li><a href="https://j-d-ign.myshopify.com/">custom</a></li>
-            <li><a href="https://www.canva.com/design/DAG5iz7JpDM/r0I61kUcI0EX0TrSvh8jJQ/edit?utm_content=DAG5iz7JpDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">contact</a></li>
+            <li><a href="./index.html#contact">contact</a></li>
         </ul>
     </nav>
     <header role="img" aria-hidden="true">
