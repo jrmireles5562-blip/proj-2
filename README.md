@@ -3,6 +3,26 @@ Preview locally: open `index.html` or run `python3 -m http.server 8000 --directo
 Developer note: `index.html` is canonical; README contains a sample copy of the page markup.
 -->
 
+## Deployed site
+
+This project is published to GitHub Pages:
+
+- Site: https://jrmireles5562-blip.github.io/proj-2/
+- Branch: `gh-pages`
+
+## Release v1.0.0 — Published (changelog)
+
+- Standardized theme to a green color scheme (CSS variables: `--primary-color`, `--primary-color-dark`)
+- Fixed navigation anchor hrefs to match section IDs in `port/index.html`
+- Deployed site files to `gh-pages` branch and created annotated tag `v1.0.0`
+
+> To preview the site locally, run:
+
+```bash
+python3 -m http.server 8000 --directory .
+# Then open http://localhost:8000/index.html or http://127.0.0.1:8000/index.html
+```
+
 
 <!DOCTYPE html>
 <html lang="en">
